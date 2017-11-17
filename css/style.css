@@ -21,7 +21,7 @@ body {
         background-color: #9F0306;
         width: 100%;
         height: 32em;
-        padding: 1em;
+        padding: 0;
     }
 
     #title {
@@ -188,7 +188,7 @@ body {
         background-color: #9F0306;
         width: 100%;
         height: 26em;
-        padding: 2em;
+        padding: 0;
     }
 
     #title {
@@ -363,7 +363,7 @@ body {
         background-color: #9F0306;
         width: 100%;
         height: 32em;
-        padding: 2em;
+        padding: 0;
     }
 
     .navbar-collapse {
@@ -551,7 +551,7 @@ body {
         background-color: #9F0306;
         width: 100%;
         height: 35em;
-        padding: 2em;
+        padding: 0;
     }
 
     #title {
@@ -752,4 +752,8 @@ body {
 
 input::placeholder, textarea::placeholder {
     color: #A3A0A1;
+}
+
+#counter > center {
+    padding-top: 10.5em;
 }

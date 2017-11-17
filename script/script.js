@@ -86,4 +86,8 @@ $(document).ready(function () {
     }));
 
     /* });*/
+
+    $("#readMore").on('click', function(){
+        $("#counter").html('<iframe style="width:100%; height:100%;" src="https://e.issuu.com/embed.html#31808445/55468058" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen></iframe>');
+    });
 });
